@@ -1,0 +1,50 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.templating": true,
+  "javascript.format.semicolons": "insert",
+  "vsicons.dontShowNewVersionMessage": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "workbench.startupEditor": "none",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "bracket-pair-colorizer-2.forceIterationColorCycle": true,
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+  "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "liveServer.settings.CustomBrowser": "firefox",
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+  },
+  "solidity.compileUsingLocalVersion": "/usr/lib/node_modules/solc/soljson.js",
+  "solidity.defaultCompiler": "localFile",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust"
+  },
+  "workbench.enableExperiments": false,
+  "workbench.welcomePage.walkthroughs.openOnInstall": false,
+  "workbench.editor.restoreViewState": false,
+  "window.restoreWindows": "none",
+  "workbench.colorTheme": "Solidity Visual Developer Dark",
+  "python.experiments.enabled": false,
+  "python.languageServer": "Pylance",
+  "python.analysis.completeFunctionParens": true,
+  "solidity.enabledAsYouTypeCompilationErrorCheck": false
+}
+
