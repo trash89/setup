@@ -1,5 +1,4 @@
 {
-  "workbench.iconTheme": "vscode-icons",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -8,24 +7,14 @@
   "html.format.indentInnerHtml": true,
   "html.format.templating": true,
   "javascript.format.semicolons": "insert",
-  "vsicons.dontShowNewVersionMessage": true,
-  "bracket-pair-colorizer-2.depreciation-notice": false,
   "workbench.startupEditor": "none",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "bracket-pair-colorizer-2.forceIterationColorCycle": true,
-  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
-  "bracket-pair-colorizer-2.highlightActiveScope": true,
   "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
   "editor.minimap.enabled": false,
-  "breadcrumbs.enabled": false,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
+  "emmet.includeLanguages": {},
   "javascript.updateImportsOnFileMove.enabled": "always",
   "files.associations": {
     "*.js": "javascriptreact"
   },
-  "liveServer.settings.CustomBrowser": "firefox",
   "[solidity]": {
     "editor.defaultFormatter": "JuanBlanco.solidity"
   },
@@ -41,10 +30,15 @@
   "workbench.welcomePage.walkthroughs.openOnInstall": false,
   "workbench.editor.restoreViewState": false,
   "window.restoreWindows": "none",
-  "workbench.colorTheme": "Solidity Visual Developer Dark",
   "python.experiments.enabled": false,
   "python.languageServer": "Pylance",
   "python.analysis.completeFunctionParens": true,
-  "solidity.enabledAsYouTypeCompilationErrorCheck": false
+  "solidity.enabledAsYouTypeCompilationErrorCheck": false,
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.testing.pytestEnabled": true,
+  "extensions.autoCheckUpdates": false,
+  "security.workspace.trust.startupPrompt": "always",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeLens": false,
+  "workbench.colorTheme": "Visual Studio Dark"
 }
-
