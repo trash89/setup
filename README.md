@@ -8,7 +8,6 @@ npm -g install typescript
 npm -g install solc
 npm -g install nodemon
 npm -g install hardhat-shorthand
-npm -g install truffle
 npm -g install ganache
 npm -g install @graphprotocol/graph-cli
 npm -g install netlify-cli
@@ -47,14 +46,42 @@ npm install concurrently
 ### For the client frontend :
 
 ```bash
-npx create-react-app client
+npm init vite
 npm install axios
 npm install normalize.css
 npm install moment
 npm install react-router-dom
 npm install styled-components
 npm install react-icons
-npm install recharts
+npm install @apollo/client
+npm install @emotion/react
+npm install @emotion/styled
+npm install @mui/icons-material
+npm install @mui/material
+npm install @reduxjs/toolkit
+npm install graphql
+npm install react-redux
+npm install styled-components
+```
+
+### For GraphQL server dev with express:
+
+```bash
+npm install --save-dev express
+npm install --save-dev express-graphql
+npm install --save-dev graphql
+npm install --save-dev lodash
+npm install --save-dev json-server
+npm install --save-dev axios
+```
+
+### For GraphQL server dev with nodejs/apollo:
+
+```bash
+npm install --save-dev apollo-server
+npm install --save-dev graphql
+npm install --save-dev jsonwebtoken
+npm install --save-dev bcryptjs
 ```
 
 ### For a frontend development

@@ -1,44 +1,69 @@
 {
+  "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+  "extensions.autoCheckUpdates": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
+  "editor.minimap.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeLens": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.wordWrapColumn": 80,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "files.associations": {
+    "*.jsx": "javascriptreact"
+  },
+  "files.hotExit": "off",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "go.formatTool": "gofmt",
+  "go.languageServerExperimentalFeatures": {
+    "diagnostics": false
+  },
+  "go.survey.prompt": false,
   "html.format.indentHandlebars": true,
   "html.format.indentInnerHtml": true,
   "html.format.templating": true,
   "javascript.format.semicolons": "insert",
-  "workbench.startupEditor": "none",
-  "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
-  "editor.minimap.enabled": false,
-  "emmet.includeLanguages": {},
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "files.associations": {
-    "*.js": "javascriptreact"
+  "javascript.preferences.quoteStyle": "double",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "[solidity]": {
-    "editor.defaultFormatter": "JuanBlanco.solidity"
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "solidity.compileUsingLocalVersion": "/usr/lib/node_modules/solc/soljson.js",
-  "solidity.defaultCompiler": "localFile",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "prettier.printWidth": 80,
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },
-  "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust"
-  },
-  "workbench.enableExperiments": false,
-  "workbench.welcomePage.walkthroughs.openOnInstall": false,
-  "workbench.editor.restoreViewState": false,
-  "window.restoreWindows": "none",
   "python.experiments.enabled": false,
   "python.languageServer": "Pylance",
   "python.analysis.completeFunctionParens": true,
-  "solidity.enabledAsYouTypeCompilationErrorCheck": false,
   "python.terminal.activateEnvInCurrentTerminal": true,
   "python.testing.pytestEnabled": true,
-  "extensions.autoCheckUpdates": false,
   "security.workspace.trust.startupPrompt": "always",
-  "editor.bracketPairColorization.enabled": true,
-  "editor.codeLens": false,
-  "workbench.colorTheme": "Visual Studio Dark"
+  "solidity.compileUsingLocalVersion": "/usr/lib/node_modules/solc/soljson.js",
+  "solidity.defaultCompiler": "localFile",
+  "solidity.enabledAsYouTypeCompilationErrorCheck": false,
+  "svelte.enable-ts-plugin": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "svelte.ask-to-enable-ts-plugin": false,
+  "terminal.integrated.shellIntegration.enabled": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.restoreWindows": "none",
+  "workbench.startupEditor": "none",
+  "workbench.enableExperiments": false,
+  "workbench.welcomePage.walkthroughs.openOnInstall": false,
+  "workbench.editor.restoreViewState": false,
+  "workbench.colorTheme": "Default Light+"
 }
